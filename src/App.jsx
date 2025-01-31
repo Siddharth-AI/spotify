@@ -1,9 +1,13 @@
+import { Sidebar } from "./component/Sidebar";
+
 function App() {
   return (
     <>
-      <h1 className="text-4xl text-green-400 text-center">
-        spotify project initial setup
-      </h1>
+      <div className="h-screen bg-black">
+        <div className="h-[90%] flex">
+          <Sidebar />
+        </div>
+      </div>
     </>
   );
 }

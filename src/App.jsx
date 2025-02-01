@@ -1,3 +1,4 @@
+import { Player } from "./component/Player";
 import { Sidebar } from "./component/Sidebar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <div className="h-[90%] flex">
           <Sidebar />
         </div>
+        <Player />
       </div>
     </>
   );

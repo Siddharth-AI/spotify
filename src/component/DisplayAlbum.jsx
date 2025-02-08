@@ -5,7 +5,6 @@ import { albumsData, assets, songsData } from "../assets/assets";
 export const DisplayAlbum = () => {
   const { id } = useParams();
   const { desc, name, image } = albumsData[id];
-  //  id: 1, name: "Top 50 India", image: "/spotify/src/assets/img9.jpg", desc: "Your weekly update of the most played tracks", bgColor: "#22543d"
   return (
     <>
       <Navbar />
